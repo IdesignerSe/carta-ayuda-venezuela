@@ -2,9 +2,77 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Solicitud de colaboración humanitaria</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carta Humanitaria – Ayuda Internacional</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+
+    header {
+      background: #005bbb;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #005bbb;
+    }
+
+    p, li {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    ul {
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #eee;
+      font-size: 14px;
+    }
+
+    .translate-box {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
 </head>
-<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #222;">
+
+<body>
+
+<header>
+  <h2>Carta Humanitaria – Solicitud de Colaboración Internacional</h2>
+</header>
+
+<div class="container">
+
+  <div class="translate-box">
+    <div id="google_translate_element"></div>
+  </div>
+
+  <h1>Solicitud de Apoyo Humanitario</h1>
+
   <p>Estimados señores,</p>
 
   <p>
@@ -20,10 +88,11 @@
   </p>
 
   <p>Les agradecería si pudieran indicarme:</p>
+
   <ul>
-    <li>Qué tipo de apoyo necesitan actualmente (logístico, técnico, difusión, coordinación remota, etc.).</li>
+    <li>Qué tipo de apoyo necesitan actualmente.</li>
     <li>Si aceptan voluntariado remoto o colaboración a distancia.</li>
-    <li>Cuáles son sus canales oficiales para donaciones seguras y apoyo material.</li>
+    <li>Cuáles son sus canales oficiales para donaciones seguras.</li>
     <li>Si existe algún formulario o procedimiento para registrarme como colaborador.</li>
   </ul>
 
@@ -37,12 +106,34 @@
     las indicaciones que ustedes consideren más útiles.
   </p>
 
-  <p>Muchas gracias por su tiempo y por la labor que realizan.</p>
-
   <p>Atentamente,<br>
-  Heb<br>
+  <strong>Heb</strong><br>
   Instagram: @TU_USUARIO_INSTAGRAM<br>
-  Correo: TU_CORREO_NUEVO@ejemplo.com
+  Correo: TU_CORREO@ejemplo.com
   </p>
+
+</div>
+
+<footer>
+  Página creada para fines humanitarios – Traducción automática habilitada
+</footer>
+
+<!-- Google Translate -->
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {
+        pageLanguage: 'es',
+        includedLanguages: 'en,sv,fr,de,it,pt,ar,ru,zh-CN,ja,ko'
+      },
+      'google_translate_element'
+    );
+  }
+</script>
+
+<script type="text/javascript"
+  src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+</script>
+
 </body>
 </html>
